@@ -1,0 +1,77 @@
+.contact-us {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: black; */
+    background: linear-gradient(to bottom left, #460c0a, #000000, #000000);
+}
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+}
+.contactMe-left-section {
+    padding-left: 200px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email > h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.location > h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.left-section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+#let-build {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+}
+#something {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+}
+#great-together {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.socialIcons {
+    display: flex;
+    /* border: 1px solid white; */
+    gap: 30px;
+}   
+.socialIcons > a>i {
+    font-size: 40px;
+}
+.socialIcons > a>i:hover {
+    color: #b30d10;
+    cursor: pointer;
+}
+
+.contactMe-right-section{
+    padding-right: 200px;
+    padding-top: 100px;
+}

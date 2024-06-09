@@ -1,0 +1,114 @@
+.project-section {
+    height: 1500px;
+    width: 100vw;
+    background-color: #1d0000;
+}
+
+.project-section-header {
+    display: block;
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.project-section-projectCards{
+    display: grid;
+    grid-template-columns: 600px 400px;
+    grid-template-rows: 600px 600px;
+    row-gap: 50px;
+    column-gap: 100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectCard > .project-title{
+    color: white;
+    font-weight: 400;
+}
+.projectCard > #spotifyProject {
+    height: 400px;
+    width: 600px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+.projectCard > #developer-folio {
+    height: 400px;
+    width: 700px;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.projectCard > #developer-folio:hover {
+    border-radius: 25px;
+    transform: scale(0.97);
+    /* border: 1px solid #1cd760; */
+    border: 1px solid #e50815;
+}
+.projectCard > #quiz-app {
+    height: 800px;
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.project-description {
+    color: #93a2b9;
+    margin-top: 25px;
+}
+.project-description:hover {
+    color: white;
+}
+.projectCard > #spotifyProject:hover {
+    border-radius: 25px;
+    transform: scale(0.97);
+    border: 1px solid yellow;
+}
+.projectCard > #quiz-app:hover {
+    border-radius: 25px;
+    transform: scale(1.02);
+    border: 1px solid black;
+}
+.project-links-description {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project-skills > .btn {
+    color: #5eead4;
+    background-color: #152b39;
+    display: inline;
+    height: 20px;
+    width: auto;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.project-skills-links {
+    display: flex;
+    justify-content: space-between;
+}
+.project-skills {
+    display: flex;
+    gap: 10px;
+}
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+i {
+    font-size: 20px;
+    color: white;
+}
+i:hover {
+    color: #5eead4;
+}

@@ -1,0 +1,37 @@
+
+.about-me {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-me-content > p ,h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.profile-img > img {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+}
+
+.about-me-page {
+    height: 500px;
+    width: 100vw;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom left, #02001e, #111e41);
+}
+.about-me-content > h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}

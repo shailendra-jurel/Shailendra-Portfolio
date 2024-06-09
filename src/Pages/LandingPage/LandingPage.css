@@ -1,0 +1,47 @@
+section.landing-page {
+    background-color: #0e0035;
+    height: 500px;
+    margin-top: 0;
+    display: flex;
+}
+.left-section > p {
+    font-size: 33px;
+    color: white;
+}
+.left-section > .description {
+    font-size: 15px;
+    color: #031066;
+    font-weight: 700;
+}
+.left-section > h2 {
+    font-size: 50px;
+    color: #6674cc;
+}
+.left-section > h3 {
+    font-size: 25px;
+}
+.left-section {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 200px;
+    padding-top: 200px;
+    /* gap: 20px; */
+}
+
+.right-section {
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.right-section > .right-section-img {
+    height: 350px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px 5px rgba(202, 230, 67, 0.075);
+    transition: 0.3s ease;
+}
+.right-section > .right-section-img:hover {
+    transform: scale(0.99);
+}

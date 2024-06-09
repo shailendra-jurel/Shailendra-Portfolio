@@ -1,0 +1,22 @@
+.typing-effect {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white; /* Change the color to your preference */ /* Add any additional styling you want */
+    margin: 10px 0; 
+    display: inline-block; /* Ensure it fits with the cursor */
+    position: relative; 
+}
+
+.typing-effect::after {
+    content: '|'; /* Cursor character */
+    font-weight: normal; /* Cursor styling */
+    color: white; /* Match cursor color to text */
+    position: absolute; /* Position the cursor correctly */
+    right: -10px; /* Adjust the position of the cursor */
+    animation: blink 0.8s infinite; /* Blinking animation */
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
